@@ -217,10 +217,10 @@ public_key=keys[1]
 
 
 
-print(verify_signature(chameleon_hash("ilovecps", 98), sign_message(chameleon_hash("ilovecps", 98), private_key), public_key))
+print(verify_signature(chameleon_hash("love", 98), sign_message(chameleon_hash("love", 98), private_key), public_key))
 
-print(verify_signature("ilovecps", sign_message("ihatecps", private_key), public_key))
+print(verify_signature("love", sign_message("hate", private_key), public_key))
 
 
 
-print(chameleon_hash("ilovecps", 98))
+print(chameleon_hash("love", 98))
