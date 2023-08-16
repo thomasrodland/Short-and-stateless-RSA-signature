@@ -1,9 +1,0 @@
- # Short-and-stateless-RSA-signature
- An implementation in Python of the short and stateless signature provided by @misc{cryptoeprint:2009/283,
-      author = {Susan Hohenberger and Brent Waters},
-      title = {Short and Stateless Signatures from the RSA Assumption},
-      howpublished = {Cryptology ePrint Archive, Paper 2009/283},
-      year = {2009},
-      note = {\url{https://eprint.iacr.org/2009/283}},
-      url = {https://eprint.iacr.org/2009/283}
-}
